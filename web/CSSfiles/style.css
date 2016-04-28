@@ -1,0 +1,113 @@
+html{background-color: aqua;
+}
+body{
+background-image:  url(../images/bbb.jpg) no-repeat;
+}
+
+#MyWebsite{}
+#Myheader{
+
+    
+}
+
+#MyContent{
+    
+   
+}
+#Mymenue{margin-top: 15px;
+       //  border: 1px solid #66d2ff;
+       width: 1200px; height: 40px; background-color: #000;}
+#Mymenue ul{float: left;}
+#Mymenue ul li{float: left; 
+             min-width: 100px;
+             padding: 0 30px;
+             line-height: 40px;
+}
+#Mymenue ul li a{text-decoration: none; color:#FFF;
+               font-size: 14px;
+               font-family:Arial, Helvetica,sans-serif;}
+
+#Myfooter{
+    margin-top:520px;
+    text-align: center;
+    background-color: white;
+}
+
+#LatestProject{margin-top: 20px; margin-bottom: 20px; width: 810px; min-height:300px;}
+#LatestProject h1{ 
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 17px;
+    color: #cb0030;
+    margin-bottom: 20px;
+
+}
+.Project{
+    width: 395px; height: 100px;float: left; margin-top: 10px;margin-bottom: 20px;
+
+
+}
+.Project:nth-child(even){margin-right: 20px;}
+.Project img{
+    float: left;
+    margin-right: 10px;
+    width:140px; height:100px;
+
+
+}
+.Project h2{
+    color: skyblue;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 19px;
+}
+.Project p{
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 12px;
+    text-align: justify;
+    color: black;
+
+}
+.Project a{
+    text-decoration: none;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 12px;
+    //color: #60030;
+    color: #592c5f;
+    float: right;
+}
+
+.FormClass{ background: #ECECE3; margin-top: 15px;}
+.FormClass form{text-align: center;}
+.FormClass form h1{  color: skyblue;
+                     font-family: Verdana,Geneva,sans-serif;
+                     font-size: 19px;}
+.FormClass form input[type="text"]{margin-top: 10px;width:195px; border:0; height: 25px; padding: 5px;margin-bottom: 10px;}
+.FormClass form input[type="tel"]{margin-top: 10px;width:195px; border:0; height: 25px; padding: 5px;margin-bottom: 10px;}
+.FormClass form select{margin-top: 10px;width:195px; border:0; height: 25px; padding: 5px;margin-bottom: 10px;}
+
+.FormClass form input[type="email"]{margin-top: 10px;width:195px; border:0; height: 25px; padding: 5px;margin-bottom: 10px;}
+.FormClass form input[type="password"]{width: 195px;  border:0; height: 25px;padding: 5px;margin-bottom: 10px; }
+.FormClass form textarea{width:247px;  
+                         border-radius: 25px;
+                         border:0px; height: 90px; padding: 10px;
+                         text-align: center;
+                         font-family: Verdana,Geneva,sans-serif;
+                         font-size: 12px;
+                         text-align: justify;
+                         margin-bottom: 10px;}
+
+.FormClass input[type="submit"]{
+    width: 200px;
+    height: 40px;
+    background-color: #333;
+    color: #f5f4f4;
+    border:0px;
+    border-radius: 25px;
+}
+.FormClass input[type="file"]{
+    width: 140px;
+    height: 30px;
+    //background-color: #333;
+    color: #808080;
+    border:0px;
+
+}

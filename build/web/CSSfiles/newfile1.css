@@ -1,0 +1,99 @@
+html{background-color: black;}
+#loginhtml{background-color: skyblue;}
+#my_website{width: 1200px; min-height:500px;  padding: 0 50px;
+            background-color: #FFF;
+            text-align: center;
+            margin: 0 auto;}
+//padding: حواشى(داخل الجسم)
+//margine: top,buttom   left,right  (هامش يعنى خارج الجسم)
+#header{
+    height:235px; 
+    width:1150px;
+   // border: 5px; color:black;
+
+}
+#logo{padding-top: 60px;}
+#menu{ width: 1100px; 
+       height:60px;
+       background-color:#2E2E2D; color: #FFF; 
+       float: left;}
+#menu a{  text-decoration: none; 
+    font-size: 14px;
+    font-family: Verdana, Geneva, sans-serif;
+    color:white;
+    float:left;
+    padding: 0 15px; 
+    line-height: 70px;}
+#menu a img{ float:left;
+       margin-top: 20px;
+       padding:0 5px;
+       padding-bottom: 10px;}
+/*#menu ul{float:left;}
+#menu ul li{float:left;  min-width: 90px; padding:0 15px;}// min-width: 90px; padding:0 15px; 
+#menu ul li a{text-decoration: none; font-size: 14px; font-family: Verdana, Geneva, sans-serif; color:black; }
+#menu ul li img{  min-width: 0px; padding:0px;}
+*/
+//#menu h5{line-height: 40px;  font-family: Verdana, Geneva, sans-serif; color:black; margin-left: 60px;  }
+//#ssocial_links{text-align: right; color: red;}
+/*
+a:text-decoration: none  اللى هيشيل الخط من تحتهم 
+
+ul:float:left  يعنى عومهم ناحية الشمال وهو ده اللى هيخليهم افقى 
+li:float:left  يعنى عومهم ناحية الشمال وهو ده اللى هيخليهم افقى 
+
+*/
+#sidebar{ background-color: #ECECE3; margin-top:10px; width:210px; height: 1260px; border: 2px; float: left; text-align: left;}
+//#sidebar ul  {margin-right: 600px;}
+.side_header{ 
+    background-color: red;
+    text-align: center;
+    height: 30px; margin-top: 10px; padding-top: 10px; color: white; width: 210px;}
+.side_body{ width: 210px; height: 290px;  
+            margin-left: -30px;
+            text-align: left;
+}
+.side_body ul{ text-align: left;
+              
+}
+.side_body ul li{ padding-bottom: 20px; 
+                  //float: left;
+                 text-align: left;
+             // margin-right: 400px;  //  padding-right: 100px;
+}
+.side_body ul li a{ text-decoration: none; 
+    font-size: 14px;
+    font-family: Verdana, Geneva, sans-serif;
+   text-align: left;
+   //padding-right: 400px;
+    //float:left;
+    padding:10 0px;
+   }
+
+   .side_body input[type="text"]{padding-left: 5px; border: 1px; margin-top: 70px; margin-bottom: 5px; height: 25px; margin-left: 50px; }
+  .side_body  input[type="email"]{padding-left: 5px; border: 1px; margin-top: 5px; margin-bottom: 5px;height: 25px; margin-left: 50px}
+   .side_body  input[type="submit"]{padding-left: 5px;
+                             background-color: #333; border: 1px;  
+                             color: #FFF; text-align: center;width:100px; height: 40px; margin-left: 30px; margin-top: 10px;}
+   
+   #conts{width: 810px; min-height: 330px; float: left; text-align: left;margin-left: 50px;}
+  #slider{height: 330px; width: 810px; background-color:#F2F2EC;  margin-top: 10px;  }
+  #latest_project{ height: 970px; width: 850px;float: left; text-align: left;}
+   #latest_project h1{color:red;       margin-top: 10px; font-size: 14px;  font-family: Verdana, Geneva, sans-serif;}
+   .project{float: left;  margin-top: 10px; margin-right: 20px; text-align: justify; }
+   .project h2{color: black; font-size: 14px;
+    font-family: Verdana, Geneva, sans-serif; }
+   .project a{float: right;}
+   //#latest_project table tr|nth-child[even]{background-color: yellow;}
+   //.project|nth-child[even]{background-color: yellow;}
+   
+  //#footer{ margin-top: 10px; width: 1200px; height: 400px; background-color: yellow;}
+   //#send{background-color: black; float: left; margin-top: 500px;}
+   //#contacts{background-color: black; float: left; margin-top: 70px;}
+   #Footer{width: 1300px; height: 300px; background-color: #2E2E2D; margin-top: 1600px;margin-left: -50px; clear: both;}
+   #send{float: left; margin-top: 40px;  margin-right: 300px;}
+   #send form input[type="text"]{border-radius: 5px; padding-left: 5px; margin-left: 40px;width: 205px;margin-bottom: 5px; }
+   #send form input[type="email"]{ padding-left: 5px;border-radius: 5px; width: 205px;margin-left: 40px;margin-bottom: 5px;}
+    #send form textarea{ padding-left: 10px; height: 50px; width: 200px;border-radius: 5px; margin-left: 40px;margin-bottom: 5px;}
+    #send  form  input[type="submit"]{margin-left: 40px; float: left;margin-top: 10px; border-radius: 5px;}
+   #Footer table td{padding-top: 50px; padding-left: 10px;}
+    //#information{float: left;  margin-right: 80px; }

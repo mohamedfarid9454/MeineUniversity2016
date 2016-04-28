@@ -1,0 +1,21 @@
+#login_register{background-color: skyblue; min-height: 300px;width: 1000px;}
+
+#loginhtml{float: right; height: 200px; width: 400px;border: 1px; border-color: green; background-color: orchid;margin-top: 20px;}
+   #loginhtml input[type="password"]{padding-left: 5px; border: 1px; margin-bottom: 5px; height: 25px; margin-left: 50px; margin-top: 30px;}
+   #loginhtml input[type="email"]{padding-left: 5px; border: 1px; margin-top: 5px; margin-bottom: 5px;height: 25px; margin-left: 50px}
+    #loginhtml  input[type="submit"]{padding-left: 5px;
+                             background-color: #333; border: 1px;  
+                             color: #FFF; text-align: center;width:100px; height: 40px; margin-left: 50px; margin-top: 10px;}
+  
+    
+   #Register_html{float: left; height: 200px; width: 400px;border: 1px; border-color: green; background-color: yellow;margin-top: 20px;}
+   #Register_html input[type="text"]{padding-left: 5px; border: 1px;  margin-bottom: 5px; height: 25px;  margin-top: 5px; margin-left: 10px}
+   #Register_html input[type="email"]{padding-left: 5px; border: 1px; margin-top: 5px; margin-bottom: 5px;height: 25px; margin-left: 10px}
+   
+#Register_html input[type="password"]{padding-left: 5px; border: 1px; margin-bottom: 5px; height: 25px; margin-left: 10px; }
+#Register_html input[type="tel"]{padding-left: 5px; border: 1px;  margin-bottom: 5px; height: 25px; margin-left: 10px; }
+#Register_html select{padding-left: 5px; border: 1px; margin-bottom: 5px; height: 25px; margin-left: 10px; }
+ 
+#Register_html input[type="submit"]{padding-left: 5px;
+                             background-color: #333; border: 1px;  
+                             color: #FFF; text-align: center;width:100px; height: 40px; margin-left: 30px; margin-top: 10px;}
